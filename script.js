@@ -47,7 +47,7 @@ function checkLoser(oppScore ){
 }
 /* Function to return computer choices */
 function getComputerChoice(){
-    const choices=['r','p','s'];
+    const choices=['s', 'r','p'];
     const cmpChoice=Math.floor(Math.random()*3);
     return choices[cmpChoice];
 }
